@@ -8,6 +8,7 @@ import jakarta.inject.Named;
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;  
 import mg.ituflavien.tpcustomer.entity.Customer;
 import service.CustomerManager;
