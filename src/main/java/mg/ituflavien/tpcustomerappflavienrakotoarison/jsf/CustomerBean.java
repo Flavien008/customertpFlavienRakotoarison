@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSF/JSFManagedBean.java to edit this template
  */
-package mg.ituflavien.tpcustomer.jsf;
+package mg.ituflavien.tpcustomerappflavienrakotoarison.jsf;
 
 import jakarta.inject.Named;
 import jakarta.faces.view.ViewScoped;
@@ -10,8 +10,8 @@ import jakarta.inject.Inject;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;  
-import mg.ituflavien.tpcustomer.entity.Customer;
-import service.CustomerManager;
+import mg.ituflavien.tpcustomerappflavienrakotoarison.entity.Customer;
+import mg.ituflavien.tpcustomerappflavienrakotoarison.service.CustomerManager;
 
 /**
  *

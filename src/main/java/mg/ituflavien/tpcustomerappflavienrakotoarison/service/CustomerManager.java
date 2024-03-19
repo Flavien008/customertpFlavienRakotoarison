@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package service;
-import mg.ituflavien.tpcustomer.entity.Customer;
+package mg.ituflavien.tpcustomerappflavienrakotoarison.service;
+import mg.ituflavien.tpcustomerappflavienrakotoarison.entity.Customer;
 import jakarta.enterprise.context.RequestScoped;
 import java.util.List;
 import jakarta.enterprise.context.RequestScoped;

@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package mg.ituflavien.tpcustomer.entity;
+package mg.ituflavien.tpcustomerappflavienrakotoarison.entity;
 
 import java.io.Serializable;
 import java.util.Collection;

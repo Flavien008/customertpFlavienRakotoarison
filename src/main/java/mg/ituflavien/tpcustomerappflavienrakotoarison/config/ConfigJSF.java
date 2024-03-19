@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package mg.ituflavien.tpcustomer.config;
+package mg.ituflavien.tpcustomerappflavienrakotoarison.config;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.faces.annotation.FacesConfig;
 /**
