@@ -8,8 +8,11 @@ import jakarta.inject.Named;
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 import java.io.Serializable;
+import java.util.List;
 import mg.ituflavien.tpcustomerappflavienrakotoarison.entity.Customer;
+import mg.ituflavien.tpcustomerappflavienrakotoarison.entity.Discount;
 import mg.ituflavien.tpcustomerappflavienrakotoarison.service.CustomerManager;
+import mg.ituflavien.tpcustomerappflavienrakotoarison.service.DiscountManager;
 
 /**
  *
@@ -23,6 +26,16 @@ private int idCustomer;
 
   @Inject
   private CustomerManager customerManager;
+  @Inject
+  private DiscountManager discountManager;
+  
+  /**
+   * Retourne la liste de tous les Discount.
+     * @return liste des discount
+   */
+  public List<Discount> getDiscounts() {
+    return discountManager.getAllDiscounts();
+  }
 
   public int getIdCustomer() {
     return idCustomer;
